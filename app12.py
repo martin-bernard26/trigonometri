@@ -9,7 +9,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"  # Sidebar terbuka secara default
 )
 kolom = st.columns(2)
-kolom[0].image("https://upload.wikimedia.org/wikipedia/commons/3/3b/Circle_cos_sin.gif",width=300)
+kolom[0].image("https://upload.wikimedia.org/wikipedia/commons/3/3b/Circle_cos_sin.gif",width=400)
 kolom[1].image("https://i.gifer.com/origin/57/57df9428b0c191201e7ce06f4a2e717c_w200.gif",width=200)
 st.title("Trigonometri")
 
