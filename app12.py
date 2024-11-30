@@ -8,13 +8,16 @@ st.set_page_config(
     layout="wide",  # Menggunakan lebar penuh layar
     initial_sidebar_state="expanded"  # Sidebar terbuka secara default
 )
+kolom = st.columns(2)
+kolom[0].image("https://upload.wikimedia.org/wikipedia/commons/3/3b/Circle_cos_sin.gif")
+kolom[1].image("https://i.gifer.com/origin/57/57df9428b0c191201e7ce06f4a2e717c_w200.gif")
 st.title("Trigonometri")
 
 tab1,tab2= st.tabs(["Penjumlahan Sudut","Identitas Ganda"])
 with tab1:
-    kolom = st.columns(2)
-    kolom[0].image("https://upload.wikimedia.org/wikipedia/commons/3/3b/Circle_cos_sin.gif")
-    kolom[1].image("https://i.gifer.com/origin/57/57df9428b0c191201e7ce06f4a2e717c_w200.gif")
+    koloman = st.columns(2)
+    koloman[0].image("https://res.cloudinary.com/ikip-siliwangi/image/upload/v1732954776/pengurangan_sudut_cos_tx9wsz.png")
+    koloman[1].image("https://res.cloudinary.com/ikip-siliwangi/image/upload/v1732956474/pengurangan_sudut_sin_hel6pw.png")
     halaman = st.sidebar.selectbox('untuk penjumlahan sudut',['Pengertian','contoh','latihan'])
     if halaman=="Pengertian":
         st.header("Penjumlahan Sudut")
