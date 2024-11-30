@@ -13,7 +13,7 @@ kolom[0].image("https://upload.wikimedia.org/wikipedia/commons/3/3b/Circle_cos_s
 kolom[1].image("https://i.gifer.com/origin/57/57df9428b0c191201e7ce06f4a2e717c_w200.gif")
 st.title("Trigonometri")
 
-tab1,tab2= st.tabs(["Penjumlahan Sudut","Identitas Ganda","Penjumlahan Fungsi Trigonometri"])
+tab1,tab2,tab3= st.tabs(["Penjumlahan Sudut","Identitas Ganda","Penjumlahan Fungsi Trigonometri"])
 with tab1:
     koloman = st.columns(2)
     koloman[0].image("https://res.cloudinary.com/ikip-siliwangi/image/upload/v1732954776/pengurangan_sudut_cos_tx9wsz.png")
