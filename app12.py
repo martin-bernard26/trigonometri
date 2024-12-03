@@ -259,7 +259,7 @@ Berikut adalah rumus dasar yang sering digunakan untuk sudut berganda:</div>""",
                              \[\cos{3\\theta}=4\cos^{3}{\\theta}-3\cos{\\theta}\]
                         </li>
                         <li>Tangen Sudut Tiga Kali
-                            \[\\tan{3\\theta}=\\frac{3\\tan{\\theta}-4\\tan^{3}{\\theta}}{1-3\\tan^{2}{\\theta}}\\;dengan\\;syarat\\;1-3\\tan^{3}{\\theta}\\neq{0}\]
+                            \[\\tan{3\\theta}=\\frac{3\\tan{\\theta}-4\\tan^{3}{\\theta}}{1-3\\tan^{2}{\\theta}}\\;dengan\\;syarat\\;1-3\\tan^{2}{\\theta}\\neq{0}\]
                         </li>
                     </ul>
                 </li>
